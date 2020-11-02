@@ -4,9 +4,10 @@ services:
 
   opencr:
     container_name: opencr
-    build:
-      context: ./docker/opencr
-      dockerfile: Dockerfile
+    image: stansl/opencr
+#    build:
+#      context: ./docker/opencr
+#      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
