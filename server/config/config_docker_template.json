@@ -18,7 +18,7 @@
       "register": true
     },
     "fhirServer": {
-      "baseURL": "http://localhost0:8080/hapi-fhir-jpaserver/fhir",
+      "baseURL": "http://fhir:8080/hapi-fhir-jpaserver/fhir",
       "username": "hapi",
       "password": "hapi"
     },
