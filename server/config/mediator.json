@@ -7,7 +7,7 @@
         "fhirServer": {
           "username": "hapi",
           "password": "hapi",
-          "baseURL": "http://localhost:8080/hapi/fhir"
+          "baseURL": "http://fhir:8080/hapi-fhir-jpaserver/fhir"
         },
         "elastic": {
           "server": "http://localhost:9200",
@@ -27,7 +27,7 @@
         "type": "struct",
         "template": [{
             "type": "string",
-            "description": "The base URL (e.g. http://localhost:8080/hapi/fhir)",
+            "description": "The base URL (e.g. http://fhir:8080/hapi-fhir-jpaserver/fhir)",
             "displayName": "Base URL",
             "param": "baseURL"
           },
