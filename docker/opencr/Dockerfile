@@ -11,7 +11,7 @@ RUN npm install
 RUN cp /src/server/config/config_docker_template.json /src/server/config/config_docker.json
 RUN cp /src/server/config/config_cicd_template.json /src/server/config/config_cicd.json
 
-ARG NODE_ENV=docker
+ARG NODE_ENV=cicd
 ENV NODE_ENV=$NODE_ENV
 
 EXPOSE 3000
