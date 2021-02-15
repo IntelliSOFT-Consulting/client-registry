@@ -10,15 +10,15 @@
     "mediator": {
       "api": {
         "username": "root@openhim.org",
-        "password": "openhim-password",
-        "apiURL": "https://localhost:8080",
+        "password": "Dsquare@1234",
+        "apiURL": "https://ds.nd.hie.intellisoftkenya.com:8081",
         "trustSelfSigned": true,
         "urn": ""
       },
-      "register": false
+      "register": true
     },
     "fhirServer": {
-      "baseURL": "http://localhost:8081/hapi-fhir-jpaserver/fhir",
+      "baseURL": "http://localhost:8080/hapi-fhir-jpaserver/fhir",
       "username": "hapi",
       "password": "hapi"
     },
